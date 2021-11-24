@@ -320,6 +320,9 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    list-style: none;
+    display: flex;
+    padding-right: 1;
 }
 
 .nav > li {
