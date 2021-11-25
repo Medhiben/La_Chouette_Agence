@@ -3,8 +3,8 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+     /* unknown -webkit-font-smoothing: antialiased; */
+    /* unknown -moz-osx-font-smoothing: grayscale; */
 }
 
 a,
@@ -32,9 +32,9 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
+   /* unknown -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     position: relative;
 }
@@ -66,9 +66,9 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
+    /* unknown -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
-    -o-background-size: auto!important;
+    -o-background-size: auto!important; */
     background-size: auto!important;
 }
 
@@ -321,8 +321,6 @@ a:hover {
     float: right;
     z-index: 1;
     list-style: none;
-    display: flex;
-    padding-right: 1;
 }
 
 .nav > li {
@@ -371,7 +369,7 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        /*  unknown -webkit-transform: translateY(-50%); */
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -436,6 +434,11 @@ nav .caret {
     border-bottom-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
+}
+
+.keywords {
+    color:#cccccc;
+    font-size:1px;
 }
 
 .mg-md {
@@ -554,12 +557,12 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    /* unknown -webkit-transform: translateY(-50%); */
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
+    /* unknown -webkit-animation-fill-mode: none; */
     animation-fill-mode: none;
 }
 
@@ -654,7 +657,10 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+}
+
+.btn {
+    color: black;
 }
 
 .container {
@@ -695,7 +701,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -710,6 +715,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: black;
+    background-color: rgba(189, 191, 195, 90);
 }
 
 h3 {
@@ -726,7 +733,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white;
 }
 
 h4 {
@@ -739,7 +746,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .portfolio-thumb {
@@ -777,13 +786,8 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -857,7 +861,9 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)  
+/* unknown and (-webkit-min-device-pixel-ratio: 1.5) */ 
+{
     .b-parallax {
         background-attachment: scroll;
     }
@@ -875,10 +881,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -887,8 +890,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -923,8 +924,8 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+         /* unknown -webkit-transform: none;
+        -ms-transform: none; */
     }
     .nav > li {
         margin-top: 0;
@@ -961,7 +962,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
+       /* -webkit-box-shadow: none; */
         box-shadow: none;
     }
     .navbar-brand img {
