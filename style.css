@@ -763,6 +763,12 @@ h4 {
     font-size: 1.4rem;
 }
 
+.white-footer {
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 .white-p {
     font-size: 1.4rem;
 }
