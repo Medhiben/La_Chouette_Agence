@@ -331,7 +331,7 @@ a:hover {
 
  .ancre-header {
     margin-right: 125px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-decoration: none;
 }
 
@@ -339,9 +339,11 @@ a:hover {
     text-align: inherit;
 }
 
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: none;
 }
 
 .navbar-toggle {
@@ -422,6 +424,7 @@ nav .caret {
 
 .p-contact {
     font-size: medium;
+    color:black;
 }
 .dropdown-menu .dropdown-menu {
     top: -8px;
@@ -757,7 +760,11 @@ h4 {
 .white {
     color: black;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.4rem;
+}
+
+.white-p {
+    font-size: 1.4rem;
 }
 
 .portfolio-thumb {
@@ -840,6 +847,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.tc-white-contact {
+    color:black;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
