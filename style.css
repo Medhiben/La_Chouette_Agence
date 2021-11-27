@@ -287,6 +287,36 @@ a:hover {
     font-size: 32px;
 }
 
+.navbar-headers {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 60px;
+    align-items: center;
+    font-family: "shirkand", sans-serif;
+    font-size: 1.7rem;
+  }
+
+  #bloc-0 {
+   object-fit: contain;
+   position: relative;
+  }
+  
+  .navbar-headers img {
+    position: absolute;
+    top: 14%;
+    left: 14%;
+    object-fit: contain;
+  }
+  .navbar-headers i {
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    width: 40px;
+    height: 30px;
+  }
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -321,7 +351,6 @@ a:hover {
     float: right;
     z-index: 1;
     list-style: none;
-    text-decoration: none;
 }
 
 .nav > li {
