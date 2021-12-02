@@ -935,6 +935,7 @@ h4 {
         margin-left: auto;
     }
 }
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -953,10 +954,50 @@ h4 {
     .nav-img {
         margin-left: 50px
     }
+    .img-header-contact {
+        margin-left: 150px;
+    }
 }
 
 @media (min-width:1024px) {
     .nav-img {
         margin-left: 180px
 }
+.img-header-contact {
+    margin-left: 250px;
 }
+}
+
+@media (min-width:320px) and (max-width:374px) {
+    .img-header-contact {
+        margin-left:20px
+    }
+}
+
+@media (min-width:375px) and (max-width:424px) {
+    .img-header-contact {
+        margin-left:30px
+    }
+}
+
+@media (min-width:425px) and (max-width:767px) {
+    .img-header-contact {
+        margin-left:40px
+    }
+}
+
+@media (min-width:1440px) {
+    .img-header-contact {
+        margin-left:490px
+    }
+}
+
+@media (min-width:2560px) {
+    .img-header-contact {
+        margin-left:1000px
+    }
+    }
+
+
+
+
