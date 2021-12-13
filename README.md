@@ -1,6 +1,6 @@
-# RamdaniMedhi_4_23112021
+# La Chouette Agence
 
-Projet 4 de la formation OpenClassRooms "Développeur web Front End" : Optimisez un site web existant
+Projet 4 : Optimisez un site web existant
 
 Compétences évaluées :
 
